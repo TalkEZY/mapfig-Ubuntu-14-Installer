@@ -1,5 +1,5 @@
 #!/bin/bash
-#Version: 1.4.7
+#Version: 2.0.1
 #Author: MapFig
 #OS Tested: Ubuntu 14.04.2.x64 LTS (recommended) and Ubuntu 14.10-x64
 #IMPORTANT! For use on fresh install Ubuntu only!!
