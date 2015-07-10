@@ -11,18 +11,9 @@ OS Tested: Ubuntu 14.04.2.x64 LTS (recommended) and Ubuntu 14.10-x64
 
 
 <h1>Installation</h1>
-<h3>System Requirements </h3>
+<h3>Installer Requirements </h3>
 <ul>
-<li>Any Linux OS x64 </li>
-<li>PHP 5.x</li>
-<li>PostgreSQL 9.x</li>
-<li>SuPHP or mod_ruid2</li>
-<li>Postfix</li>
-<li>GDAL>=1.8</li>
-<li>Apache HTTP Server</li>
-<li>Accessing to a working SMTP email account.  While you can configure this on the box you install MapFig Studio, the application is designed to authenticate email and links via an smtp email service. If you do not want email verification functionality or do not have access to an SMTP email account, see "Bypass Email Requirements" below.</li>
-
-<li>The above components have been tested, lower or other versions may work. </li>
+<li>Access to a working SMTP email account.  While you can configure this on the box you install MapFig Studio, the application is designed to authenticate email and links via an smtp email service. If you do not want email verification functionality or do not have access to an SMTP email account, see "Bypass Email Requirements" below.</li>
 </ul>
 
 
