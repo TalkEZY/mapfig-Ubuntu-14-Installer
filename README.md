@@ -39,11 +39,12 @@ OS Tested: Ubuntu 14.04.2.x64 LTS (recommended) and Ubuntu 14.10-x64
 <p class="style2">A the end of installation your mapfig user password, map database name, stats database name, and password, and postgres password will be displayed as below as well as saved to an auth file (/root/studio-install.auth) on the file system.</p>
 <p class="style1"><pre>INFO:
 Virtual Host Configuration: /etc/apache2/sites-enabled/000-default.conf
-Your studio database name is: djzioxdqokyxfc
-Your studio stats database name is: djzioxdqokyxfc_stats
-Your studio postgresql user password is: QnIkNVMIV0IwpmcEMqny73eFQ91XBLB6
-Your studio os user password is: gLhr9aPcR_hz3xEJtLdfqf6o1-cx0OVJ
-Your postgres superuser password is: J7UNZ0tnyQGHmYOC7yz-sEltkAfmvkxE
+Your studio database name is: fjcfgldypqimux
+Your studio stats database name is: fjcfgldypqimux_stats
+Your studio postgresql user password is: ClXpkibHXD68gYDAGKjn--M79C2bbFFd
+Your studio os user password is: -cfWQ8pHXfWMGUzUTU_J-yLd2Qi3dq2F
+Your postgres superuser password is: 6nAnKT9QQn8fR_0e508WYgFuaI0UzmhX
+Password are saved in /root/studio-install.auth
 root@mapfig:/opt#</pre></p>
 <p class="style1">&nbsp;</p>
 <p class="style2">Navigate to your VM IP and follow the installation screens:</p>
@@ -82,16 +83,16 @@ root@mapfig:/opt#</pre></p>
 <p>&nbsp;</p>
 <h4>&nbsp;</h4>
 <h4>Bypass Email Requirements</a></h4>
-<p class="style2"><span class="style3">If you do not wish to use email functionality, or do not have access to an SMTP server</span>, connect as user mapfig or postgres to the postgresql database that was created by the script (djzioxdqokyxfc, in our example above) :</p>
+<p class="style2"><span class="style3">If you do not wish to use email functionality, or do not have access to an SMTP server</span>, connect as user mapfig or postgres to the postgresql database that was created by the script (fjcfgldypqimux, in our example above) :</p>
 <p class="style1">&nbsp;</p>
 <p>
 <pre>root@mapfig:/opt# su - mapfig
-$ psql -d djzioxdqokyxfc -U mapfig
+$ psql -d fjcfgldypqimux -U mapfig
 Password for user mapfig:
 psql (9.4.4)
 Type "help" for help.
 
-djzioxdqokyxfc=></pre>
+fjcfgldypqimux=></pre>
 </p>
 <p class="style2">Run the update statement below,  where 'me@myemail.com' is the email you used during installation:
 </p>
