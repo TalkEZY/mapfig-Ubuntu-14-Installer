@@ -58,6 +58,26 @@ root@mapfig:/opt#</pre></p>
 <p class="style1">&nbsp;</p>
 <img src="https://cdn.acugis.com/petiole/v301/petdocs/DONE.jpg"></p>
 
+
+<p class="style1">&nbsp;If verifcation email does work, follow steps below to re-run mail configuration. You can re-run this as many times as you wish to set/change/update mail settings.</p>
+
+ 
+<p class="style1"><pre>
+[root@server ~]# wget https://cdn.acugis.com/petiole/v301/petiole-mail-config.sh
+[root@server ~]# chmod 755 petiole-mail-config.sh
+[root@server ~]# ./petiole-mail-config.sh
+</pre> 
+
+ 
+
+<p class="style1">&nbsp;If you want to point a sub domain (e.g. maps.mydomain.com) and did not do so during the install, follow steps below to re-run vhost configuration. You can re-run this as many times as you wish to set/change/update mail settings.</p>
+
+ 
+<p class="style1"><pre>
+[root@server ~]# wget https://cdn.acugis.com/petiole/v301/petiole-vhost-config.sh
+[root@server ~]# chmod 755 petiole-vhost-config.sh
+[root@server ~]# ./petiole-vhost-config.sh
+</pre>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <h4>&nbsp;</h4>
