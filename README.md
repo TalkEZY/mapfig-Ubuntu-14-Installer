@@ -71,11 +71,11 @@ Password for user mapfig:
 psql (9.4.4)
 Type "help" for help.
 
-dfwhlcivlwtnct=></pre>
+djzioxdqokyxfc=></pre>
 </p>
 <p class="style2">Run the update statement below,  where 'me@myemail.com' is the email you used during installation:
 </p>
 <p>
-<pre>dfwhlcivlwtnct=> update users set activationkey = '' where email = 'david@acugis.com';</pre>
+<pre>djzioxdqokyxfc=> update users set activationkey = '' where email = 'david@acugis.com';</pre>
 </p>
 
